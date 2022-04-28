@@ -1,17 +1,28 @@
 {
   "name": "overwatch-hero-selector-vanilla-master",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "\"# starbucks\"",
+  "main": "main.js",
   "scripts": {
     "dev": "parcel index.html",
     "build": "parcel build index.html"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lina-Jin/starbucks.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lina-Jin/starbucks/issues"
+  },
+  "homepage": "https://github.com/Lina-Jin/starbucks#readme",
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
-    "sass": "^1.50.1"
+    "sass": "^1.51.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
   }
 }

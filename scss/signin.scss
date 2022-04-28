@@ -1,0 +1,75 @@
+.signin {
+    padding: 50px 0 150px;
+    h1 {
+        color: #fff;
+        font-size: 40px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+    .signin__card{
+        width: 500px;
+        margin: 0 auto;
+        border-radius: 6px;
+        background-color: rgba($color: #f6f5f0, $alpha: .4);
+        box-shadow: 2px 2px 20px rgba($color: #000000, $alpha: .3);
+        color: #555;
+        h2 {
+            padding: 30px;
+            font-size: 18px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+            strong {
+                font-weight: 700;
+                color: rgb(83, 86, 238);
+            }
+        }
+        form {
+            padding: 30px 22px;
+            input {
+                width: 100%;
+                margin-bottom: 12px;
+                padding: 15px;
+                border: 1px solid rgba($color: #fff, $alpha: .7);
+                border-radius: 4px;
+                outline: none;
+                box-sizing: border-box;
+                font-size: 14px;
+                background-color: rgba($color: #fff, $alpha: .7);
+            }
+            [type="submit"] {
+                background-color: rgba(136, 138, 240, .8);
+                border: none;
+                color: #fff;
+                font-size: 20px;
+                cursor: pointer;
+                font-weight: 550;
+            }
+            p {
+                font-size: 12px;
+                text-align: center;
+                color: rgb(136, 138, 240);
+            }
+        }
+        .actions {
+            display: flex;
+            border-top: 1px solid #ddd;
+            a{
+                flex-grow: 1;
+                flex-basis: 0;
+                text-align: center;
+                font-size: 14px;
+                padding: 20px;
+                color: #555;
+                border-right: 1px solid #ddd;
+                text-decoration: none;
+                &:last-child {
+                    border-right: none;
+                }
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
