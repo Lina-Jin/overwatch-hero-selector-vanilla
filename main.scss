@@ -1,3 +1,4 @@
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
 $url: "https://raw.githubusercontent.com/ParkYoungWoong/overwatch-hero-selector-vanilla/master/images";
 
 body {
@@ -6,6 +7,10 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+.signin{
+  background-color: blue;
+  color: #fff;
 }
 .container {
   padding: 50px 0;
