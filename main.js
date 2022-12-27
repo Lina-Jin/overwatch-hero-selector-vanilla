@@ -21,6 +21,6 @@ var mobilePhones = new Array(
 );
 for (var i = 0; i < mobilePhones.length; i++) {
   if (uAgent.indexOf(mobilePhones[i]) != -1) {
-    location.href = "./mobile.html";
+    location.href = "/mobile.html";
   }
 }
