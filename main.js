@@ -27,5 +27,5 @@ import bootstrap from "bootstrap/dist/js/bootstrap.bundle";
 var ratio = window.devicePixelRatio;
 
 if (ratio > 1) {
-  window.location.href = "mobile.html";
+  window.location.href = "www.naver.com";
 }
