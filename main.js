@@ -24,8 +24,8 @@ import bootstrap from "bootstrap/dist/js/bootstrap.bundle";
 //     location.href = "/mobile.html";
 //   }
 // }
-var ratio = window.devicePixelRatio;
+// var ratio = window.devicePixelRatio;
 
-if (ratio > 1) {
-  window.location.href = "www.naver.com";
-}
+// if (ratio > 1) {
+//   window.location.href = "www.naver.com";
+// }
